@@ -1,0 +1,36 @@
+@charset "utf-8";
+.map-wrap{
+	margin-top : 30px;
+	margin-left : 200px;
+	margin-bottom : 200px;
+
+}
+
+
+hr{	
+	position : relative;
+	margin-top : 16%;
+	border: 1px solid rgba(0,0,0,.1);
+	}
+
+
+.boat{color :  rgb(0, 173, 238);
+font-size : 3rem;}
+a{text-decoration : none;}
+@media screen and (min-width: 900px) {
+.mapdetail{
+    padding: 1rem 3rem;
+  }
+}
+#map{
+	top :50px;
+	float : left;
+}
+.mapdetail{
+	
+		float : left;
+		left : 30px;
+		margin : 20px;
+		margin-bottom : 200px;
+	
+}

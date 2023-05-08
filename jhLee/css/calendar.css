@@ -1,0 +1,109 @@
+@charset "utf-8";
+ /* body 스타일 */
+ hr{
+   margin-top : 16%;
+ }
+ option{
+ font-weight: 700}
+ .ad{
+ color : pink;
+ }
+ .devel{
+ color : orange;
+ }
+ .hire{
+ color : lightgreen;
+ }
+ .plan{
+ color : purple;
+ }
+ .sales{
+ color : blue;
+ }
+ .personal{
+ color : gray;
+ }
+ .red{color : red;}
+ #mobtn{
+ display:none;
+ }
+ 
+ #title.form-control{
+ margin-bottom: 10px;}
+  body {
+    
+    font-size: 14px;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  }
+  /* 드래그 박스의 스타일 */
+  #drag_wrap {
+  float : left;
+  margin-right : 20px;
+    left: 20px;
+    width: 100px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    background: #eee;
+    text-align: left;
+  
+  }
+  
+  /* 현재 없는 선택자 */
+  #external-events h4 {
+    font-size: 16px;
+    margin-top: 0;
+    padding-top: 1em;
+  }
+  /* 현재 없는 선택자 */
+  
+  
+  #external-events .fc-event {
+    margin: 3px 0;
+    cursor: move;
+  }
+ 
+  #external-events p {
+    margin: 1.5em 0;
+    font-size: 11px;
+    color: #666;
+  }
+ 
+ /* 현재 없는 선택자 */
+  #external-events p input {
+    margin: 0;
+    vertical-align: middle;
+  }
+/* 현재 없는 선택자 */
+
+/* 달력 감싸기 (드래그이벤트 포함)  */
+.cal_container{
+	
+  margin-top:11%;
+}
+.calhr{
+	margin-left: 100px;
+}
+  #cal_wrap {
+  padding-top : 40px;
+    margin-left: 100px;
+    margin-bottom : 200px;
+       max-width: 1300px; 
+  }
+ 
+  #calendar {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  #cal_save_wrap{
+  text-align:right;  display: block;
+  margin : 20px;
+  }
+  
+  #cal_save{
+  width : 120px; height : 40px; background-color : blue; color : white; 
+  font-size:17px; cursor:pointer;
+  border : none;
+  margin-bottom: 50px;
+}
+#dept{width : 50%;
+margin :0 auto;}
